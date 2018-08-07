@@ -1090,7 +1090,7 @@ case "$DEVICE" in
             "$@"
         ;;
 
-    "mido")
+    "mido" | "markw")
         sed -i \
             -e 's block/bootdevice/by-name/boot mmcblk0p21 ' \
             -e 's block/bootdevice/by-name/cache mmcblk0p25 ' \
